@@ -1,0 +1,17 @@
+{
+  "name": "roblox-presence-tracker",
+  "version": "1.0.0",
+  "description": "Roblox presence and game history tracker",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
